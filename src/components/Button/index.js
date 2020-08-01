@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Button =styled.button`
-    color: var(--black);
+    color: var(--primary);
     border: 1px solid var(--primary);
     box-sizing: border-box;
     cursor: pointer;
@@ -18,5 +18,9 @@ const Button =styled.button`
     &:focus {
         opacity: .5;
     }
+@media (max-width: 800px) {
+    color: var(--black);
+}
 `;
+
 export default Button;
