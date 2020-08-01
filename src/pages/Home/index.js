@@ -41,11 +41,6 @@ function Home() {
         category={dadosIniciais.categorias[4]}
       />
 
-      <Carousel
-        ignoreFirtVideo
-        category={dadosIniciais.categorias[5]}
-      />
-
       <Footer />
     </div>
   );
